@@ -1,0 +1,46 @@
+{
+    "tripName": "Trip to France",
+    "traveler": {
+        "name": "Jane Doe",
+        "contact": {
+            "email": "jane.doe@example.com", 
+            "phone": "345-123-7800"
+        }
+    },
+    "destinations": [
+        {
+            "location": "Paris",
+            "arrivalDate": "2030-04-12",
+            "departureDate": "2030-04-16",
+            "activities": [
+                {
+                    "title": "Eiffel Tower",
+                    "time": "2030-04-12 09AM"
+                },
+                {
+                    "title": "The Louvre Museum",
+                    "time":"2030-04-13 10AM"
+                },
+                {
+                    "title": "Boat Cruise on the Seine",
+                    "time": "2030-04-14 11AM"
+                }
+            ]
+        },
+        {
+            "location": "Nice",
+            "arrivalDate": "2030-04-16",
+            "departureDate": "2030-04-20",
+            "activities": [
+                {
+                    "title": "Tour of the Old Town",
+                    "time": "2030-04-17 11AM"
+                },
+                {
+                    "title": "Museum of Modern and Contemporary Art",
+                    "time":"2030-04-18 10AM"
+                }
+            ]
+        }
+    ]
+}
