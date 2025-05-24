@@ -12,6 +12,10 @@
             "location": "Paris",
             "arrivalDate": "2030-04-12",
             "departureDate": "2030-04-16",
+            "transportation": {
+                             "mode": "flight",
+                             "cost": "1200 USD"
+               },
             "activities": [
                 {
                     "title": "Eiffel Tower",
@@ -31,6 +35,10 @@
             "location": "Nice",
             "arrivalDate": "2030-04-16",
             "departureDate": "2030-04-20",
+             "transportation": {
+                             "mode": "train",
+                             "cost": "150 Euros"
+               },
             "activities": [
                 {
                     "title": "Tour of the Old Town",
@@ -39,7 +47,26 @@
                 {
                     "title": "Museum of Modern and Contemporary Art",
                     "time":"2030-04-18 10AM"
+                },
+        {
+            "location": "Province",
+            "arrivalDate": "2030-04-20",
+            "departureDate": "2030-04-26",
+            "transportation": {
+                             "mode": "bus",
+                             "cost": "60 Euros"
+               },
+            "activities": [
+                {
+                   "title": "A day at Parc National des Calanques", 
+                   "time": "2030-04-23 9AM"
+                },
+                {
+                    "title": "Guided tour of Marseille",
+                     "time": "2030-04-25 8AM"
                 }
+            ]
+        }
             ]
         }
     ]
